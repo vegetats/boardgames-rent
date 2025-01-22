@@ -1,0 +1,68 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Arial Medium';
+    background: #4a8ace;
+}
+
+img {
+    display: block;
+}
+
+h1{
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 60px;
+}
+.dashboard__item__name {
+    color: #fdfdfd;
+}
+
+.dashboard__items {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.dashboard__items__item {
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    border: 5px, solid, #124983;
+    border-radius: 10px;
+    margin: 7px;
+    
+}
+
+.dashboard__item__img {
+    border: 5px, solid, #04264b;
+}
+
+.dashboard__item__name {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard__item__button {
+    font-size: 20px;
+    color: white;
+    background-color: #124983;
+    border: 5px, solid, #124983;
+    border-radius: 10px;
+    content: 'Alugar';
+}
+
+.dashboard__item__button__disabled {
+    font-size: 20px;
+    color: white;
+    background-color: #33373a;
+    border: 5px, solid, #33373a;
+    border-radius: 10px;
+    content: 'Devolver';
+
+}

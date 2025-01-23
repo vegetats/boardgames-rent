@@ -8,6 +8,5 @@ function changeStatus(id) {
     } else { 
         clickedButton.classList.add('dashboard__item__button__disabled')
         clickedButton.textContent = 'Devolver'
-    }
-        
+    }       
 }
